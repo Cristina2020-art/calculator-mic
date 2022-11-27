@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style >
+            form{
+            background-color: red;
+            }
+            h1{
+                color: white;
+                background-color:blue;
+            }
+        </style>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="styles/style.css"/>
+        <title>Buna,tuturor!</title>
+    </head>
+    <body>
+          <form>
+              <h1 >CALCULATOR </h1>
+              <input type="text" name="screen" placeholder="type here"><br><hr>
+              <input type="button" value="1" onclick="form.screen.value += `1`">
+              <input type="button" value="2" onclick="form.screen.value += `2`">
+              <input type="button" value="3" onclick="form.screen.value += `3`">
+              <input type="button" value="4" onclick="form.screen.value += `4`"><br>
+              <input type="button" value="5" onclick="form.screen.value += `5`">
+              <input type="button" value="6" onclick="form.screen.value += `6`">
+              <input type="button" value="7" onclick="form.screen.value += `7`">
+              <input type="button" value="8" onclick="form.screen.value += `8`"><br>
+              <input type="button" value="9" onclick="form.screen.value += `9`">
+              <input type="button" value="0" onclick="form.screen.value += `0`">          
+              <input type="button" value="+" onclick="form.screen.value += `+`">
+              <input type="button" value="-" onclick="form.screen.value += `-`"><br>
+              <input type="button" value="x" onclick="form.screen.value += `*`">
+              <input type="button" value=" = " onclick="form.screen.value =eval(form.screen.value)">
+              <input type="button" value="clear" onclick="form.screen.value =``">
+        </form>
+    </body>
+</html>
